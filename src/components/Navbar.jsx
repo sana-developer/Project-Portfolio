@@ -11,9 +11,10 @@ function Navbar() {
   
   return (
     <nav className='flex flex-wrap justify-between w-full px-14 py-2 item-center navbar'>
-          <div className='mx-6 font-extrabold text-xl'>
+          <div className='mx-6 font-extrabold text-xl logo'>
             Sana Saghir
           </div>
+          <div className='nav-items'>
           <ul className='flex flex-wrap'>
             {items.map((item,index) => (
               <li 
@@ -42,6 +43,7 @@ function Navbar() {
             
             
           </ul>
+          </div>
           <div className='mr-6 ml-18 px-2'>
               <Link to='contact' smooth={true} duration={500}>
               <button className='bg-gray-800 rounded-lg px-2 py-1'

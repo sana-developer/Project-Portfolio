@@ -4,12 +4,12 @@ function Contact() {
   return (
     <div id='contact' className='mx-28'>
       <div className='flex items-center flex-col justify-center'>
-        <div className='mt-20'>
+        <div className='mt-20 contact-head'>
         <label htmlFor="contact-h" className='name'>Get in touch</label>
         <div id='contact-h' ><span className='border-aqua pb-2 bold'>Contact Me</span></div></div>
         <p className='my-5 contact-p'>There are several platforms on which I'm available like Linkdin, Whatsapp, Twitter and Github.</p>
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between info">
         <div className='mt-4'>
           <div><h3 className='font-bold'>phone number</h3></div>
           <div className='mt-2 mb-4 ml-2'><i className="fa-solid fa-phone mr-2" style={{color: "#000000"}}></i>+923150152365</div>
@@ -24,8 +24,8 @@ function Contact() {
         </div>
       </div>
       <div>
-          <div><h3 className='font-bold'>Email</h3></div>
-          <div className='flex items-center'>
+          <div><h3 className='font-bold email'>Email</h3></div>
+          <div className='flex items-center foot'>
           <div className='mt-2 mb-4 ml-2'><i className="fa-regular fa-envelope mr-2" style={{color: "#000000"}}></i>sanasaghir979@gmail.com</div>
           <div className='social'>
           <a href="https://www.linkedin.com/in/sana-saghir-83bb24249/" target='_blank'>
@@ -44,7 +44,7 @@ function Contact() {
 
         
 
-        <div className='text-center my-6 text-lg'><span className='text-2xl'>&copy;</span>&nbsp;Sana Saghir,&nbsp;All Rights Reserved</div>
+        <div className='text-center my-6 text-lg footer'><span className='text-2xl'>&copy;</span>&nbsp;Sana Saghir,&nbsp;All Rights Reserved</div>
     </div>
   )
 }

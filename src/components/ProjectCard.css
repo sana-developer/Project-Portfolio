@@ -1,6 +1,5 @@
 .image-container {
             position: relative;
-            width: 300px; /* Adjust the width as needed */
             overflow: hidden;
         }
 
@@ -31,15 +30,15 @@
             opacity: 0.2;
         }
        .card-project h2{
-            font-weight: 700;
-            font-size: 1.5rem;
-            margin: 1rem 0;
+        font-weight: 700;
+        font-size: 2.9vw;
+        margin: 1.1vw 0;
         }
-        .tech{
-            color: white;
-            border: 2px solid #bbb7b4;
-            padding: 3px 8px;
-            border-radius: 16px;
-            background-color: #bbb7b4;
-            margin: 3px 2px;
-        }
+            .tech {
+                color: white;
+                border: 2px solid #bbb7b4;
+                padding: 3px 8px;
+                border-radius: 16px;
+                background-color: #bbb7b4;
+                margin: 0.4vw 0.2vw;
+            }

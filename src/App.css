@@ -27,9 +27,10 @@ li.active{
 
 /* main section */
 .main{
-  height: 85vh;
   color: #353430;
-  
+    /* height: 85vh; */
+    top: 10vh;
+    position: relative;
 }
 
 .img-part{
@@ -37,7 +38,7 @@ li.active{
 }
 .text-part{
   width: 55%;
-  font-size:rem ;
+  padding-right: 6vw;
 }
 img{
   width: 100% !important;
@@ -94,8 +95,9 @@ img{
 
 /* contact section */
 .contact-p{
-  width: 23rem;
+  width: 46vw;
   text-align: center;
+  margin: 33px 0px;
 }
 .social{
   width: 42%;
@@ -105,3 +107,6 @@ img{
   align-items: center;
   justify-content: center;
 }
+
+
+

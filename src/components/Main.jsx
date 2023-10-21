@@ -25,13 +25,13 @@ function Main() {
 
   return (
     <div className='flex main' id='home'>
-      <div className='w-1/2 pl-14 mt-14 ml-4 mr-2'>
+      <div className='w-1/2 pl-14 mt-14 ml-4 mr-2 main-text'>
         <div className='my-5'><p>Hey There,</p></div>
         <div className='bold'>I'M <span className='name'>SANA SAGHIR</span></div>
         <div className='bold'>
-            <span className='input'>FULL STACK DEVELOPER</span>
+            <span className='input'>Full Stack Developer |</span>
         </div>
-        <div className='py-4'><p>I'm a Software Engineering student with a strong academic background, passionate about web development. Ready to make an impact as a full-stack developer. Let's create together!</p></div>
+        <div className='py-4 main-p'><p>I'm a Software Engineering student with a strong academic background, passionate about web development. Ready to make an impact as a full-stack developer. Let's create together!</p></div>
         <Link to='about' smooth={true} duration={500}>
         <div className="btn py-4 px-1 font-semibold cursor-pointer"><span className='circle'>&nbsp;&nbsp;Ab</span>out Me&nbsp; &gt;
         </div>
@@ -50,7 +50,7 @@ function Main() {
       </div>
 
       <div className='w-1/2'>
-        <img src={Image} alt="Photo" />
+        <img src={Image} alt="Photo" className='main-img'/>
       </div>
     </div>
   )

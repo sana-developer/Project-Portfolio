@@ -24,7 +24,7 @@ function ProjectCard(props) {
         <div className="btn py-4 px-1 font-semibold cursor-pointer"><span className='circle'>&nbsp;&nbsp;Co</span>de&nbsp; &gt;
         </div></a>
         
-        <div className='py-4 ml-14'>
+        <div className='py-4 ml-14 live-demo'>
             <a href={props.demo} target="_blank">
               <button className='bg-gray-800 rounded-md px-10 py-2'
               style={{

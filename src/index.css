@@ -15,3 +15,199 @@ body{
 /* font-family: 'Gabarito', sans-serif;
 
  */
+ @media screen and (min-width: 1150px) {
+    body {
+      font-size: 2vw !important;
+    }
+    .logo{
+        font-size: 2vw !important;
+    }
+    .bold {
+      font-size: 4vw !important;
+    }
+    button{
+        font-size: 2vw !important;
+    }
+    #about{
+        padding-bottom: 4vw;
+    }
+  }
+
+  @media screen and (max-width: 953px) {
+    .live-demo{
+        margin-left: 4vw !important;
+    }
+  }
+
+  @media screen and (max-width: 924px) {
+    .main-text{
+        width: 55% !important;    
+    }
+  }
+  /* 894 */
+  @media screen and (max-width: 894px) {
+    .main{
+        height: 28rem;
+    }
+    .main-p{
+        margin-right: 8vw !important;  
+    }
+    .main-text{
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        width: 65% !important;    
+    }
+    .main-img{
+        position: absolute;
+        right: 0;
+        width: 45% !important;
+    }
+    .text-part{
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+    .img-part{
+        position: absolute;
+    left: 0;
+        width: 50% !important;
+    }
+    .about-section{
+            position: relative;
+            top: 0;
+            height: 38rem;
+            margin-bottom: 29vh;
+            margin-top: 9vh;        
+    }
+    
+  }
+
+  @media screen and (max-width: 822px) {
+    .about-h{
+        margin-top: 0px !important;    
+    }
+    .about-section{
+        height: 25rem;
+    }
+  }
+
+  @media screen and (max-width: 786px) {
+    nav{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .img-part{
+        width: 58% !important;
+    }
+
+  }
+
+  @media screen and (max-width: 670px) {
+    nav{
+        justify-content: center !important;
+    }
+    .navbar div{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+        .main-img {
+        width: 100% !important;
+        opacity: 0.5;
+    }
+    .main-text{
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    .cards-container{
+        flex-direction: column;
+        justify-content: center !important;
+        margin: 5rem 0rem !important;
+    }
+    .card-project{
+        width: 100%;
+    }
+  }
+  @media screen and (max-width:560px) {
+    nav{
+        flex-direction: column !important;
+        height: 16vh !important;
+        align-items: center;
+        flex-wrap: nowrap !important;
+
+    }
+    .navbar ul li{
+        margin: 0px;
+    }  
+    .nav-items{
+    }
+    .bold{
+        font-size: 37px;
+    }
+    .main-text{
+        padding-left: 1rem;
+        padding-right: 0px;    
+    }
+    .about-h{
+        margin-top: 1rem !important;
+    }
+    .about-section{
+        position: relative;
+        height: 34rem;
+    }
+    .img-part{
+        position: absolute;
+        width: 100% !important;
+        opacity: 0.5;
+    }
+    .text-part{
+        position: absolute;
+        left: 3px;;
+        z-index: 1;
+        width: 100% !important;
+        margin: 1rem;
+        padding-left: 0.5rem;
+    }
+
+    #projects .bold{
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+    }
+    .cards-container{
+        margin: 0px !important;
+    }
+    .card-project{
+        width: 85% !important;
+        margin-bottom: 2rem !important;
+    }
+    #contact{
+        margin: 0 !important;
+    }
+    .contact-head{
+        margin-top: 2rem !important;
+    }
+    .contact-p {
+        width: 80vw !important;
+    }
+    .info{
+        justify-content: space-evenly !important;
+        align-items: center !important;
+    }
+    .email{
+        text-align: center;
+    margin-top: 1rem;
+    }
+    .foot{
+        flex-direction: column;
+    }
+    .social{
+        margin-bottom: 1rem;
+    }
+    .footer{
+        background: black;
+    color: white;
+    margin: 0;
+    padding: 1rem 0;
+    }
+  }
+
