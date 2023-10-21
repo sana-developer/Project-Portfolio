@@ -7,7 +7,7 @@ nav{
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 100; /* Use a high z-index to ensure the navbar stays on top of other content */
 }
 

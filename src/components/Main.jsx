@@ -28,7 +28,7 @@ function Main() {
       <div className='w-1/2 pl-14 mt-14 ml-4 mr-2 main-text'>
         <div className='my-5'><p>Hey There,</p></div>
         <div className='bold'>I'M <span className='name'>SANA SAGHIR</span></div>
-        <div className='bold'>
+        <div className='bold typed-text'>
             <span className='input'>Full Stack Developer |</span>
         </div>
         <div className='py-4 main-p'><p>I'm a Software Engineering student with a strong academic background, passionate about web development. Ready to make an impact as a full-stack developer. Let's create together!</p></div>

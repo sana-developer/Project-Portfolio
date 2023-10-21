@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import {Link} from 'react-scroll'
+import cv from '../assets/cv.pdf'
 
 function Navbar() {
   const [activeItem, setActiveItem] = useState(0);
@@ -23,7 +24,7 @@ function Navbar() {
               onClick={() => handleItemClick(index)}
               >
                 {item == "Resume" ? (
-                  <a href="src/assets/cv.pdf" target='_blank' rel='noopener noreferrer'>
+                  <a href={cv} target='_blank' rel='noopener noreferrer'>
                   {item}
                   </a>
                 ) : (
