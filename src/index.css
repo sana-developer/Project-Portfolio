@@ -217,3 +217,9 @@ body{
     }
   }
 
+  @media screen and (max-width:379px) {
+    
+    .typed-text{
+        font-size: 31px !important;
+    }
+}
