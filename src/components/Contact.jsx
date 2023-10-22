@@ -14,7 +14,7 @@ function Contact() {
           <div><h3 className='font-bold'>phone number</h3></div>
           <div className='mt-2 mb-4 ml-2'><i className="fa-solid fa-phone mr-2" style={{color: "#000000"}}></i>+923150152365</div>
         </div>
-        <div>
+        <div className='address'>
           <div className='mt-4'><h3>
             <a href="https://www.google.com/maps/place/Islamabad,+Islamabad+Capital+Territory,+Pakistan/@33.6162509,72.7564434,10z/data=!3m1!4b1!4m6!3m5!1s0x38dfbfd07891722f:0x6059515c3bdb02b6!8m2!3d33.6844202!4d73.0478848!16zL20vMGRoZDU?entry=ttu" target='_blank'>
             <i className="fa-solid fa-location-dot mr-2" style={{color: '#000000'}}></i>
