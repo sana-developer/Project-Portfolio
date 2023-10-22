@@ -146,6 +146,9 @@ body{
 
   }
   @media screen and (max-width:560px) {
+    .skills{
+        display: none !important;
+    }
     nav{
         flex-direction: column !important;
         height: 16vh !important;
